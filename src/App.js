@@ -1,7 +1,11 @@
-import Intro from "./components/intro/Intro";
+import Navbar from "./components/navbar/Navbar";
 
-const App = () => {
-    return <div><Intro/></div>;
-};
+function App() {
+  return (
+    <div className="app">
+      <Navbar/>
+    </div>
+  );
+}
 
 export default App;
