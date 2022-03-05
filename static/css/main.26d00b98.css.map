@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.26d00b98.css","mappings":"AAAA,QAGI,wBADA,WAAY,CADZ,UAEwB","sources":["components/navbar/navbar.scss"],"sourcesContent":[".navbar {\r\n    width: 100%;\r\n    height: 70px;\r\n    background-color: purple;\r\n}"],"names":[],"sourceRoot":""}
