@@ -5,29 +5,42 @@
     display: flex;
 
     .left{
-        flex: 0.5;
+        flex: 0.6;
         overflow: hidden;
-
+        position: relative;
         .imgContainer{
-            width: 1200px;
-            height: 1200px;
+            width: 100%;
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: linear-gradient(45deg, $mainColor, $secondaryColor, $tertiaryColor);
+            background-image: linear-gradient(90deg, $mainColor, $secondaryColor, $tertiaryColor, $tetradicColor);
+            background-size: 300%;
+            animation: bg-animation 5s infinite alternate;
             border-radius: 50%;
-            float: right;
+            // float: right;
+            
+
+            @keyframes bg-animation {
+                0%{
+                    background-position: left;
+                }
+                100%{
+                    background-position: right;
+                }
+            }
             
 
             img{
                 height: 100%;
                 width: 100%;
+                position: absolute;
             }
         }
     }
 
     .right{
-        flex: 0.5;
+        flex: 0.4;
         position: relative;
         color: $mainColor;
 
@@ -74,10 +87,10 @@
         a{
             position: absolute;
             bottom: 10px;
-            left: 15%;
+            left: 45%;
 
             img{
-                width: 60px;
+                width: 80px;
                 animation: arrowBlink 2s infinite;
             }
 
