@@ -16,13 +16,13 @@
             justify-content: center;
             background-image: linear-gradient(90deg, $mainColor, $secondaryColor, $tertiaryColor, $tetradicColor);
             background-size: 300%;
-            animation: bg-animation 5s infinite alternate;
+            animation: bg-animation 15s infinite alternate;
             border-radius: 50%;
             // float: right;
             
 
             @keyframes bg-animation {
-                0%{
+                50%{
                     background-position: left;
                 }
                 100%{
@@ -59,10 +59,12 @@
 
             h2{
                 font-style: 65px;
+                color: $tertiaryColor;
             }
 
             h3{
                 font-size: 50px;
+                color: $tetradicColor;
 
                 span{
                     font-size: 50px;
