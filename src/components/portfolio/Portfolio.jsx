@@ -17,14 +17,10 @@ export default function Portfolio() {
                     <img src={DNBphoto} alt="" />
                     <h3>Dollars And Bills</h3>   
                 </div>
-            </div>
-            <div className="container">
                 <div className="item">
                     <img src={ACHphoto} alt="" />
                     <h3>ACH Game Review</h3>   
                 </div>
-            </div>
-            <div className="container">
                 <div className="item">
                     <img src={ECTphoto} alt="" />
                     <h3>Event Covid Tracker</h3>   
