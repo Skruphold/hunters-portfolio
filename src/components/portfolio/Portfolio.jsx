@@ -1,12 +1,15 @@
 import "./portfolio.scss"
-import DNBphoto from "../../assets/Dollars-and-bills.png"
-import ACHphoto from "../../assets/ach-game-review.png"
-import ECTphoto from "../../assets/ECT.png"
 import PortfolioList from "../portfolioList/PortfolioList";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import {
+    featuredPortfolio,
+    webPortfolio,
+    mobilePortfolio
+} from "../../data"
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured")
+    const [data, setData] = useState([])
 
     const list = [
         {
@@ -23,6 +26,22 @@ export default function Portfolio() {
         },
     ];
 
+    useEffect(()=>{
+        switch(selected){
+            case "featured":
+                setData(featuredPortfolio);
+                break;
+                case "web":
+                setData(webPortfolio);
+                break;
+                case "mobile":
+                setData(mobilePortfolio);
+                break;
+                default:
+                    setData(featuredPortfolio);
+        }
+    },[selected])
+
     return (
         <div className='portfolio' id="portfolio">
             <h1>Portfolio</h1>
@@ -37,18 +56,14 @@ export default function Portfolio() {
                 ))}
             </ul>
             <div className="container">
+                {data.map((d)=>(
                 <div className="item">
-                    <img src={DNBphoto} alt="" />
-                    <h3>Dollars And Bills</h3>   
+                    <img src={d.img}
+                    alt=""
+                    />
+                    <h3>{d.title}</h3>   
                 </div>
-                <div className="item">
-                    <img src={ACHphoto} alt="" />
-                    <h3>ACH Game Review</h3>   
-                </div>
-                <div className="item">
-                    <img src={ECTphoto} alt="" />
-                    <h3>Event Covid Tracker</h3>   
-                </div>
+                ))}
             </div>
         </div>
     )
