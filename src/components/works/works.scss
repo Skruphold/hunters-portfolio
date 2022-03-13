@@ -25,7 +25,7 @@
     }
 
     .slider{
-        height: 700px;
+        height: 800px;
         display: flex;
         position: absolute;
         left: 0;
@@ -38,7 +38,7 @@
             justify-content: center;
 
             .item{
-                width: 1200px;
+                width: 1500px;
                 height: 100%;
                 background-image: linear-gradient(90deg, $mainColor, $secondaryColor, $tertiaryColor, $tetradicColor);
                 background-size: 300%;
@@ -113,8 +113,8 @@
                     overflow: hidden;
 
                     img{
-                        width: 700px;
-                        height: 700px;
+                        width: 900px;
+                        height: 800px;
                         transform: rotate(-10deg);
                     }
                 }
