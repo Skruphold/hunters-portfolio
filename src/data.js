@@ -10,32 +10,32 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Dollars And Bills",
-        img: {DNBphoto},
+        img: DNBphoto,
     },
     {
         id: 2,
         title: "ACH Game Review",
-        img: {ACHphoto},
+        img: ACHphoto,
     },
     {
         id: 3,
         title: "Event Covid Tracker",
-        img: {ECTphoto}
+        img: ECTphoto,
     },
     {
         id: 4,
         title: "Note Taker",
-        img: {NoteTakerPhoto}
+        img: NoteTakerPhoto,
     },
     {
         id: 5,
         title: "Just another Text Editor",
-        img: {JatePhoto}
+        img: JatePhoto,
     },
     {
         id: 6,
         title: "Social Network Api",
-        img: {SNApiGif}
+        img: SNApiGif,
     },
 ];
 
@@ -43,27 +43,27 @@ export const webPortfolio = [
     {
         id: 1,
         title: "Dollars And Bills",
-        img: {DNBphoto},
+        img: DNBphoto,
     },
     {
         id: 2,
         title: "ACH Game Review",
-        img: {ACHphoto},
+        img: ACHphoto,
     },
     {
         id: 3,
         title: "Event Covid Tracker",
-        img: {ECTphoto}
+        img: ECTphoto,
     },
     {
         id: 4,
         title: "Note Taker",
-        img: {NoteTakerPhoto}
+        img: NoteTakerPhoto,
     },
     {
         id: 5,
         title: "Just another Text Editor",
-        img: {JatePhoto}
+        img: JatePhoto,
     },
 ];
 
@@ -71,21 +71,21 @@ export const mobilePortfolio = [
     {
         id: 1,
         title: "Dollars And Bills",
-        img: {DNBphoto},
+        img: DNBphoto,
     },
     {
         id: 2,
         title: "ACH Game Review",
-        img: {ACHphoto},
+        img: ACHphoto,
     },
     {
         id: 3,
         title: "Event Covid Tracker",
-        img: {ECTphoto}
+        img: ECTphoto,
     },
     {
         id: 4,
         title: "Note Taker",
-        img: {NoteTakerPhoto}
+        img: NoteTakerPhoto,
     },
 ];
