@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hunters-portfolio/static/css/main.38a6292a.css",
-    "main.js": "/hunters-portfolio/static/js/main.7db941a7.js",
+    "main.css": "/hunters-portfolio/static/css/main.82b1593c.css",
+    "main.js": "/hunters-portfolio/static/js/main.55090b5d.js",
     "static/media/me.png": "/hunters-portfolio/static/media/me.b3f9d4d986dbf6695a35.png",
     "static/media/ach-game-review.png": "/hunters-portfolio/static/media/ach-game-review.3fa40582b3ac79be958b.png",
     "static/media/ECT.png": "/hunters-portfolio/static/media/ECT.e933c0134b8ea58902d9.png",
     "static/media/Dollars-and-bills.png": "/hunters-portfolio/static/media/Dollars-and-bills.b88ea5ae1d9da367c9dd.png",
     "static/media/down-arrow.png": "/hunters-portfolio/static/media/down-arrow.fad02a352812b8aa7c06.png",
     "index.html": "/hunters-portfolio/index.html",
-    "main.38a6292a.css.map": "/hunters-portfolio/static/css/main.38a6292a.css.map",
-    "main.7db941a7.js.map": "/hunters-portfolio/static/js/main.7db941a7.js.map"
+    "main.82b1593c.css.map": "/hunters-portfolio/static/css/main.82b1593c.css.map",
+    "main.55090b5d.js.map": "/hunters-portfolio/static/js/main.55090b5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.38a6292a.css",
-    "static/js/main.7db941a7.js"
+    "static/css/main.82b1593c.css",
+    "static/js/main.55090b5d.js"
   ]
 }
