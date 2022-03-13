@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hunters-portfolio/static/css/main.64d71a99.css",
-    "main.js": "/hunters-portfolio/static/js/main.032e0485.js",
+    "main.css": "/hunters-portfolio/static/css/main.4f691ad2.css",
+    "main.js": "/hunters-portfolio/static/js/main.8c73e063.js",
     "static/media/demo.gif": "/hunters-portfolio/static/media/demo.a1055f3ca2ac6e8cf90d.gif",
     "static/media/me.png": "/hunters-portfolio/static/media/me.b3f9d4d986dbf6695a35.png",
     "static/media/ach-game-review.png": "/hunters-portfolio/static/media/ach-game-review.3fa40582b3ac79be958b.png",
     "static/media/ECT.png": "/hunters-portfolio/static/media/ECT.e933c0134b8ea58902d9.png",
     "static/media/Dollars-and-bills.png": "/hunters-portfolio/static/media/Dollars-and-bills.b88ea5ae1d9da367c9dd.png",
-    "static/media/Linkedinresume.pdf": "/hunters-portfolio/static/media/Linkedinresume.eb56ac4198bc52626183.pdf",
+    "static/media/Linkedinresume.pdf": "/hunters-portfolio/static/media/Linkedinresume.e1a50d068e74a8308c6a.pdf",
     "static/media/globe.png": "/hunters-portfolio/static/media/globe.96a367f07c70801b76f7.png",
     "static/media/mobile.png": "/hunters-portfolio/static/media/mobile.20d6e87fd33bd11e2442.png",
     "static/media/down-arrow.png": "/hunters-portfolio/static/media/down-arrow.fad02a352812b8aa7c06.png",
@@ -15,11 +15,11 @@
     "static/media/note-taker.PNG": "/hunters-portfolio/static/media/note-taker.7ee78e0054b56fdec6e8.PNG",
     "static/media/Jate.PNG": "/hunters-portfolio/static/media/Jate.5df6dd2e1f8f5ff15bcf.PNG",
     "index.html": "/hunters-portfolio/index.html",
-    "main.64d71a99.css.map": "/hunters-portfolio/static/css/main.64d71a99.css.map",
-    "main.032e0485.js.map": "/hunters-portfolio/static/js/main.032e0485.js.map"
+    "main.4f691ad2.css.map": "/hunters-portfolio/static/css/main.4f691ad2.css.map",
+    "main.8c73e063.js.map": "/hunters-portfolio/static/js/main.8c73e063.js.map"
   },
   "entrypoints": [
-    "static/css/main.64d71a99.css",
-    "static/js/main.032e0485.js"
+    "static/css/main.4f691ad2.css",
+    "static/js/main.8c73e063.js"
   ]
 }
