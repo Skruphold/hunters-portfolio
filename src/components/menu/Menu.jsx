@@ -1,4 +1,5 @@
 import "./menu.scss"
+import Resume from "../../assets/Linkedinresume.pdf"
 
 export default function Menu({ menuOpen, setMenuOpen }) {
     return (
@@ -14,7 +15,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#works">Works</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href={Resume}>Resume</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#contact">Contact</a>
