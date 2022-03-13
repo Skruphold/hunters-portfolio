@@ -7,8 +7,8 @@
     align-items: center;
 
     h1{
-        font-style: 50px;
-        color: $secondaryColor;
+        font-size: 60px;
+        color: white;
     }
 
     ul{
@@ -16,21 +16,6 @@
         padding: 0;
         list-style: none;
         display: flex;
-
-        li{
-            font-size: 14px;
-            margin-right: 50px;
-            padding: 7px;
-            border-radius: 10px;
-            color: $secondaryColor;
-            cursor: pointer;
-
-            &.active{
-                background-color: $mainColor;
-                color: $secondaryColor;
-            }
-
-        }
     }
 
     .container{
