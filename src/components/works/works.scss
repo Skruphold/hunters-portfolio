@@ -1,3 +1,125 @@
+@import "../../global.scss";
+
+
 .works {
-    background-color: lightseagreen;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow{
+        height: 100px;
+        position: absolute;
+
+        &.left{
+            left: 100px;
+            transform: rotateY(180deg);
+            cursor: pointer;
+        }
+
+        &.right{
+            right: 100px;
+            cursor: pointer;
+        }
+    }
+
+    .slider{
+        height: 700px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
+
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 1200px;
+                height: 100%;
+                background-image: linear-gradient(90deg, $mainColor, $secondaryColor, $tertiaryColor, $tetradicColor);
+                background-size: 300%;
+                animation: bg-animation 15s infinite alternate;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @keyframes bg-animation {
+                    50%{
+                        background-position: left;
+                    }
+                    100%{
+                        background-position: right;
+                    }
+                }
+
+                .left{
+                    flex: 4;
+                    height: 60%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer{
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imgContainer{
+                            width: 60px;
+                            height: 60px;
+                            border-radius: 50%;
+                            background-color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img{
+                                width: 30px;
+                                height: 30px;
+                            }
+                        }
+
+                        h2{
+                            font-size: 28px;
+                            color: white;
+                        }
+                        p{
+                            font-size: 18px;
+                            color: white;
+                        }
+                        span{
+                            font-size: 15px;
+                            font-weight: 600;
+                            color: white;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .right{
+                    flex: 8;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+
+                    img{
+                        width: 700px;
+                        height: 700px;
+                        transform: rotate(-10deg);
+                    }
+                }
+            }
+        }
+    }
+
 }
