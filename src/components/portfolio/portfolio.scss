@@ -9,6 +9,15 @@
     h1{
         font-size: 60px;
         color: white;
+
+        @include mobile{
+            font-size: 20px;
+        }
+
+        @include desktop{
+            font-size: 25px;
+            justify-content: center;
+        }
     }
 
     ul{
@@ -16,6 +25,19 @@
         padding: 0;
         list-style: none;
         display: flex;
+
+        @include mobile{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        @include desktop{
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
     }
 
     .container{
@@ -24,6 +46,14 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+
+        @include mobile{
+            width: 100%;
+        }
+
+        @include desktop{
+            width: 100%;
+        }
 
         .item{
             width: 500px;
@@ -37,6 +67,16 @@
             color: $mainColor;
             position: relative;
             transition: all .5s ease;
+
+            @include mobile{
+                width: 150px;
+                height: 120px;
+            }
+
+            @include desktop{
+                width: 400px;
+                height: 290px;
+            }
 
             h3{
                 position: absolute;

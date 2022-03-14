@@ -2,3 +2,19 @@ $mainColor: #F1B20E;
 $secondaryColor: #FC03C9;
 $tertiaryColor: #034DFC;
 $tetradicColor: #03FC36;
+
+$width: 768px;
+
+$width-desk: 1900px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+};
+
+@mixin desktop {
+    @media (max-width: #{$width-desk}){
+        @content
+    }
+};

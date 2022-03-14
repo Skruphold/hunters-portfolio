@@ -4,6 +4,10 @@
     background-color: black;
     display: flex;
 
+    @include mobile{
+        flex-direction: column;
+    }
+
     .left{
         flex: 0.6;
         overflow: hidden;
@@ -51,9 +55,22 @@
             flex-direction: column;
             justify-content: center;
 
+            @include mobile{
+                padding-left: 0;
+                align-items: center;
+            }
+
             h1{
                 font-size: 90px;
                 margin: 10px 0;
+
+                @include mobile{
+                    font-size: 40px;
+                }
+
+                @include desktop{
+                    font-size: 40px;
+                }
             }
 
             h2{
@@ -65,9 +82,25 @@
                 font-size: 50px;
                 color: $tetradicColor;
 
+                @include mobile{
+                    font-size: 30px;
+                }
+
+                @include desktop{
+                    font-size: 38px;
+                }
+
                 span{
                     font-size: 50px;
                     color: $secondaryColor;
+
+                    @include mobile{
+                        font-size: 30px;
+                    }
+
+                    @include desktop{
+                        font-size: 38px;
+                    }
                 }
 
                 .ityped-cursor{

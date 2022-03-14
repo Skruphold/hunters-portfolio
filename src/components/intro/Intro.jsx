@@ -11,7 +11,7 @@ export default function Intro() {
         init(textRef.current, {
             showCursor: true,
             backDelay: 1500,
-            strings: ["Full Stack Web Developer", "Photographer"]
+            strings: ["Web Developer", "Photographer"]
         })
     },[])
 
