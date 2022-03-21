@@ -38,6 +38,14 @@
                     display: none;
                 }
 
+                @include tablet{
+                    display: none;
+                }
+
+                @include laptop{
+                    display: flex;
+                }
+
                 .icon {
                     font-size: 25px;
                     margin-right: 5px;

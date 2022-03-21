@@ -68,8 +68,12 @@
                     font-size: 40px;
                 }
 
-                @include desktop{
-                    font-size: 40px;
+                @include tablet{
+                    font-size: 60px;
+                }
+
+                @include laptop{
+                    font-size: 75px;
                 }
             }
 
@@ -86,8 +90,12 @@
                     font-size: 30px;
                 }
 
-                @include desktop{
-                    font-size: 38px;
+                @include tablet{
+                    font-size: 40px;
+                }
+
+                @include laptop{
+                    font-size: 50px;
                 }
 
                 span{
@@ -98,8 +106,12 @@
                         font-size: 30px;
                     }
 
-                    @include desktop{
+                    @include tablet{
                         font-size: 38px;
+                    }
+
+                    @include laptop{
+                        font-size: 50px;
                     }
                 }
 

@@ -4,8 +4,10 @@ $tertiaryColor: #034DFC;
 $tetradicColor: #03FC36;
 
 $width: 768px;
-
-$width-desk: 1900px;
+$width-tablet: 768px;
+$width-laptop: 1150px;
+$width-desk: 1600px;
+$width-huge: 2000px;
 
 @mixin mobile {
     @media (max-width: #{$width}){
@@ -13,8 +15,27 @@ $width-desk: 1900px;
     }
 };
 
-@mixin desktop {
-    @media (max-width: #{$width-desk}){
+@mixin tablet {
+    @media (min-width: #{$width-tablet}){
         @content
     }
 };
+
+@mixin laptop {
+    @media (min-width: #{$width-laptop}){
+        @content
+    }
+};
+
+@mixin desktop {
+    @media (min-width: #{$width-desk}){
+        @content
+    }
+};
+
+@mixin huge {
+    @media (min-width: #{$width-huge}){
+        @content
+    }
+};
+
