@@ -24,6 +24,10 @@
             height: 75px;
         }
 
+        @include desktop{
+            height: 100px;
+        }
+
         &.left{
             left: 100px;
             transform: rotateY(180deg);
@@ -35,6 +39,10 @@
 
                     @include laptop{
                         left: 30px;
+                    }
+
+                    @include desktop{
+                        left: 100px;
                     }
         }
 
@@ -48,6 +56,10 @@
 
             @include laptop{
                 right: 30px;
+            }
+
+            @include desktop{
+                right: 100px;
             }
         }
     }
@@ -71,6 +83,10 @@
 
         @include laptop{
             height: 700px;
+        }
+
+        @include desktop{
+            height: 800px;
         }
 
         .container{
@@ -102,6 +118,10 @@
 
                 @include laptop{
                     width: 900px;
+                }
+
+                @include desktop{
+                    width: 1500px;
                 }
 
                 @keyframes bg-animation {
@@ -137,8 +157,8 @@
                             justify-content: center;
 
                             @include mobile{
-                                height: 10px;
-                                width: 10px;
+                                height: 11px;
+                                width: 11px;
                             }
 
                             @include tablet{
@@ -151,13 +171,18 @@
                                 width: 45px;
                             }
 
+                            @include desktop{
+                                height: 60px;
+                                width: 60px;
+                            }
+
                             img{
                                 width: 50px;
                                 height: 50px;
 
                                 @include mobile{
-                                    height: 15px;
-                                    width: 15px;
+                                    height: 7px;
+                                    width: 7px;
                                 }
 
                                 @include tablet{
@@ -169,11 +194,16 @@
                                     height: 40px;
                                     width: 40px;
                                 }
+
+                                @include desktop{
+                                    height: 50px;
+                                    width: 50px;
+                                }
                             }
                         }
 
                         h2{
-                            font-size: 28px;
+                            font-size: 30px;
                             color: white;
 
                             @include mobile{
@@ -187,9 +217,13 @@
                             @include laptop{
                                 font-size: 24px;
                             }
+
+                            @include desktop{
+                                font-size: 30px;
+                            }
                         }
                         p{
-                            font-size: 18px;
+                            font-size: 21px;
                             color: white;
                             
                             @include mobile{
@@ -202,6 +236,10 @@
 
                             @include laptop{
                                 font-size: 16px;
+                            }
+
+                            @include desktop{
+                                font-size: 21px;
                             }
                         }
                         span{
@@ -221,6 +259,10 @@
 
                             @include laptop{
                                 font-size: 13px;
+                            }
+
+                            @include desktop{
+                                font-size: 15px;
                             }
                         }
                     }
@@ -249,6 +291,10 @@
 
                         @include laptop{
                             height: 700px;
+                        }
+
+                        @include desktop{
+                            height: 900px;
                         }
                     }
                 }

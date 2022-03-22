@@ -25,6 +25,12 @@
             display: flex;
             justify-content: center;
         }
+
+        @include desktop{
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+        }
     }
 
     ul{
@@ -98,6 +104,11 @@
             @include laptop{
                 width: 400px;
                 height: 260px;
+            }
+
+            @include desktop{
+                width: 500px;
+                height: 400px;
             }
 
             h3{

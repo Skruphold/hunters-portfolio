@@ -75,11 +75,19 @@
                 @include laptop{
                     font-size: 75px;
                 }
+
+                @include desktop{
+                    font-size: 90px;
+                }
             }
 
             h2{
-                font-style: 65px;
+                font-size: 28px;
                 color: $tertiaryColor;
+
+                @include desktop{
+                    font-size: 40px;
+                }
             }
 
             h3{
