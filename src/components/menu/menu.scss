@@ -27,6 +27,40 @@
         color: white;
         width: 60%;
 
+        p{
+            font-size: 20px;
+        }
+
+        .linked-in{
+            height: 65px;
+            width: 65px;
+
+            img{
+                height: 60px;
+                width: 60px;
+            }
+        }
+
+        .twitter{
+            height: 65px;
+            width: 65px;
+
+            img{
+                height: 60px;
+                width: 60px;
+            }
+        }
+
+        .github{
+            height: 65px;
+            width: 65px;
+
+            img{
+                height: 60px;
+                width: 60px;
+            }
+        }
+
         li{
             margin-bottom: 40px;
             a{
