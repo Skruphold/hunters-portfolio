@@ -17,7 +17,7 @@ export default function Contact() {
                 <img src={Shake} alt="" />
             </div>
             <div className="right">
-                <h2>Contact Me.</h2>
+                <h2>Contact Me!</h2>
                 <div className="links">
                     <a className="linked-in" href="https://www.linkedin.com/in/hunter-coleman-webdev/"><img src={Linkedin} alt=""/></a>
                     <a className="twitter" href="https://twitter.com/huntergotvision"><img src={Twitter} alt=""/></a>
