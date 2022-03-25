@@ -38,7 +38,7 @@
             font-size: 75px;
 
             @include mobile {
-                font-size: 35px;
+                font-size: 25px;
             }
 
             @include tablet {
@@ -59,8 +59,8 @@
                 width: 60px;
 
                 @include mobile {
-                    height: 45px;
-                    width: 45px;
+                    height: 35px;
+                    width: 35px;
                 }
 
                 @include laptop {
@@ -79,8 +79,8 @@
                 width: 60px;
 
                 @include mobile {
-                    height: 45px;
-                    width: 45px;
+                    height: 35px;
+                    width: 35px;
                 }
 
                 @include laptop {
@@ -99,8 +99,8 @@
                 width: 60px;
 
                 @include mobile {
-                    height: 45px;
-                    width: 45px;
+                    height: 35px;
+                    width: 35px;
                 }
 
                 @include laptop {
@@ -149,7 +149,7 @@
 
                 @include mobile {
                     width: 300px;
-                    height: 200px;
+                    height: 150px;
                     font-size: 12px;
                 }
 
